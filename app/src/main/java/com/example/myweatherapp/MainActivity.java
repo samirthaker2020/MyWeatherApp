@@ -34,9 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         weatherData = findViewById(R.id.textView);
-        GPSTracker gpsTracker = new GPSTracker(this);
-        lat= String.valueOf(gpsTracker.getLatitude());
-        lon=String.valueOf(gpsTracker.getLongitude());
+       
 
 
 
